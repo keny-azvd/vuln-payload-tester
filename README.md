@@ -1,11 +1,6 @@
 # vuln-payload-tester
 A Python script designed to test web applications for vulnerabilities by sending various payloads to identify potential Server-Side Template Injection (SSTI) vulnerabilities. The tool allows you to input base URLs and paths, then posts crafted payloads to evaluate the server's response and highlight potential weaknesses.
 
-
-# vuln-payload-tester
-
-**vuln-payload-tester** is a Python-based tool designed to help security researchers and developers identify Server-Side Template Injection (SSTI) vulnerabilities in web applications. The tool works by sending crafted payloads to the server and analyzing the responses to detect possible code execution or data leaks caused by improperly handled user inputs in templates.
-
 ## Table of Contents
 
 - [Overview](#overview)
