@@ -38,7 +38,7 @@ To install and run **vuln-payload-tester**, make sure you have Python 3.x instal
 pip install requests colorama
 
 
-Usage
+## Usage
 Clone the repository:
 
 bash
@@ -54,7 +54,7 @@ Follow the prompts to enter the BASE_URL and PATHS (either manually or from a fi
 
 The tool will then test each path with various payloads and report back any responses.
 
-SSTI Vulnerabilities
+@@ SSTI Vulnerabilities
 SSTI vulnerabilities are a critical web security issue where an attacker is able to inject and execute arbitrary code in the template engine. Some common consequences of SSTI include:
 
 Remote Code Execution: The attacker can execute arbitrary code on the server.
@@ -63,7 +63,7 @@ Data Leakage: Sensitive data may be exposed if the template engine is not secure
 
 Privilege Escalation: In some cases, SSTI vulnerabilities can lead to privilege escalation if the injected code allows the attacker to interact with backend systems.
 
-How SSTI Exploits Work
+## How SSTI Exploits Work
 An attacker can exploit an SSTI vulnerability by injecting specially crafted payloads that the template engine processes and executes. These payloads might involve mathematical operations, string manipulations, or even complex expressions that invoke dangerous functions on the server.
 
 For example:
@@ -89,7 +89,7 @@ Freemarker (Java)
 
 For detailed explanations of how SSTI vulnerabilities work and how they can be exploited in different template engines, you can check the following references:
 
-References
+## References
 Podalirius: Python Vulnerabilities - Code Execution in Jinja Templates
 
 YesWeHack: Bug Bounty - Server-Side Template Injection Exploitation
@@ -98,7 +98,7 @@ PortSwigger Web Security - Exploiting Server-Side Template Injection
 
 PortSwigger Research - Server-Side Template Injection
 
-License
+## License
 This repository is licensed under the MIT License. See the LICENSE file for more information.
 
 vuln-payload-tester is meant for educational purposes and to help developers and security researchers identify vulnerabilities in web applications. Always obtain permission before testing any web application that you do not own or have explicit authorization to test.
